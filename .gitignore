@@ -17,3 +17,14 @@ wheels/
 
 # har files
 *.har
+
+# IDE
+.idea/
+
+# UI subproject build artifacts
+ui/.venv/
+ui/desktop/build/
+ui/desktop/dist/
+
+# Backup files
+*.bak
