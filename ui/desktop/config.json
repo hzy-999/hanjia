@@ -1,0 +1,709 @@
+{
+    "devices": [
+        {
+            "id": "907536a1-4b7d-48ff-b8bf-655a37a2494b",
+            "name": "智能灯",
+            "type": "light",
+            "ip": "192.168.31.142",
+            "visible": true,
+            "data": {
+                "power": "on",
+                "mode": "static",
+                "color_r": 255,
+                "color_g": 0,
+                "color_b": 0,
+                "wifi_signal": -63
+            }
+        },
+        {
+            "id": "b1ec99df-55c6-4846-88df-d189d82ef67b",
+            "name": "右键-H+单火双键开关",
+            "type": "mijia_switch",
+            "ip": "",
+            "visible": true,
+            "did": "1081846216.s3",
+            "model": "huca.switch.dh2",
+            "data": {
+                "online": true,
+                "power": "on"
+            }
+        },
+        {
+            "id": "346faba7-fdb0-488f-bd6f-db4f68a6c530",
+            "name": "Xiaomi HomeWiFi三频Mesh路由器   ",
+            "type": "mijia",
+            "ip": "",
+            "visible": false,
+            "did": "546429284",
+            "model": "xiaomi.router.rb08"
+        },
+        {
+            "id": "715d457b-0f0e-4cd4-987c-8aa551c99268",
+            "name": "小爱音箱Play增强版",
+            "type": "mijia",
+            "ip": "",
+            "visible": false,
+            "did": "725895915",
+            "model": "xiaomi.wifispeaker.l05c"
+        },
+        {
+            "id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+            "name": "电脑 智能插座P1",
+            "type": "mijia_switch",
+            "ip": "",
+            "visible": true,
+            "did": "732650267",
+            "model": "iot.plug.socn1",
+            "data": {
+                "online": true,
+                "power": "on"
+            }
+        },
+        {
+            "id": "8e9bb342-fc47-447a-a879-7ce8c3a980ae",
+            "name": "客厅空调",
+            "type": "mijia_fan",
+            "ip": "",
+            "visible": false,
+            "did": "ir.1726583800064253952",
+            "model": "miir.aircondition.ir02"
+        },
+        {
+            "id": "ce8bf699-0d12-4b62-8efd-ce7a0295bacc",
+            "name": "取暖器开",
+            "type": "mijia",
+            "ip": "",
+            "visible": false,
+            "did": "ir.1726977340602466304",
+            "model": "miir.remote.ir01"
+        },
+        {
+            "id": "2943dc5a-4e1a-420b-a631-c0d73fe101fa",
+            "name": "右键-H+单火三键开关",
+            "type": "mijia_switch",
+            "ip": "",
+            "visible": true,
+            "did": "1080650797.s4",
+            "model": "huca.switch.dh3",
+            "data": {
+                "online": true,
+                "power": "off"
+            }
+        },
+        {
+            "id": "73ca766b-bb3b-4d9d-b512-b5bf76f014d9",
+            "name": "H+ single ignition double key switch",
+            "type": "mijia_switch",
+            "ip": "",
+            "visible": false,
+            "did": "1081846216",
+            "model": "huca.switch.dh2"
+        },
+        {
+            "id": "f8c23596-fe6e-4b95-ab31-ffe7d0c945e0",
+            "name": "Xiaomi Smart Air Purifier 4 Pro",
+            "type": "mijia",
+            "ip": "",
+            "visible": true,
+            "did": "697899137",
+            "model": "xiaomi.airp.va2b",
+            "data": {
+                "online": true,
+                "power": "on",
+                "temperature": 18,
+                "humidity": 53,
+                "pm25": 30,
+                "air_quality": 1,
+                "mode": 0,
+                "filter_life": 0
+            }
+        },
+        {
+            "id": "5fb57dc1-a260-4147-80dc-e92dbc31409f",
+            "name": "小爱音箱Play-主卧",
+            "type": "mijia",
+            "ip": "",
+            "visible": false,
+            "did": "725895872",
+            "model": "xiaomi.wifispeaker.l05c"
+        },
+        {
+            "id": "165b0a13-0d23-455f-99ba-3b9a767f98d4",
+            "name": "乌龟晒背",
+            "type": "mijia_switch",
+            "ip": "",
+            "visible": true,
+            "did": "732651305",
+            "model": "iot.plug.socn1",
+            "data": {
+                "online": true,
+                "power": "off"
+            }
+        },
+        {
+            "id": "6884f9e6-02df-4531-b64e-7cfd89ff56ef",
+            "name": "取暖器关",
+            "type": "mijia",
+            "ip": "",
+            "visible": false,
+            "did": "ir.1726977622988177410",
+            "model": "miir.remote.ir01"
+        },
+        {
+            "id": "e3a94078-d75e-46f1-9a3b-8ba7c05d7a7e",
+            "name": "取暖器左右摇头",
+            "type": "mijia",
+            "ip": "",
+            "visible": false,
+            "did": "ir.1726979134313877504",
+            "model": "miir.remote.ir01"
+        },
+        {
+            "id": "087a6901-943e-4d4e-9a43-4e3c64d5305b",
+            "name": "修改取暖器温度",
+            "type": "mijia_sensor",
+            "ip": "",
+            "visible": false,
+            "did": "ir.1726979566469783552",
+            "model": "miir.remote.ir01"
+        },
+        {
+            "id": "6a2851fa-bd98-4c19-8a78-cb5566a487aa",
+            "name": "中键-H+单火三键开关",
+            "type": "mijia_switch",
+            "ip": "",
+            "visible": true,
+            "did": "1080650797.s3",
+            "model": "huca.switch.dh3",
+            "data": {
+                "online": true,
+                "power": "off"
+            }
+        },
+        {
+            "id": "8091a812-7b41-4965-be02-b799a377d8b1",
+            "name": "HAN",
+            "type": "mijia",
+            "ip": "",
+            "visible": false,
+            "did": "miwifi.34709dae-47f9-79df-30a1-d6ba61620aba",
+            "model": "xiaomi.router.r1350"
+        },
+        {
+            "id": "d411bf4d-d436-4bd7-abf4-02060ec2953f",
+            "name": "左键-H+单火双键开关",
+            "type": "mijia_switch",
+            "ip": "",
+            "visible": true,
+            "did": "1081846216.s2",
+            "model": "huca.switch.dh2",
+            "data": {
+                "online": true,
+                "power": "off"
+            }
+        },
+        {
+            "id": "805efda7-55ab-4991-a60d-8827619cde49",
+            "name": "饮水机取水",
+            "type": "mijia",
+            "ip": "",
+            "visible": false,
+            "did": "ir.1726586158206570498",
+            "model": "miir.remote.ir01"
+        },
+        {
+            "id": "2c17a6f2-b403-4b7a-b119-db64bf62347b",
+            "name": "卧室空调",
+            "type": "mijia_fan",
+            "ip": "",
+            "visible": false,
+            "did": "ir.1852577009193070592",
+            "model": "miir.aircondition.ir02"
+        },
+        {
+            "id": "f58263c1-6afb-41c7-bdef-a065f486ce46",
+            "name": "H+ Single fire button switch",
+            "type": "mijia_switch",
+            "ip": "",
+            "visible": false,
+            "did": "1080650797",
+            "model": "huca.switch.dh3"
+        },
+        {
+            "id": "b3fdc7b5-6357-4aa3-82e4-cc7918ab205e",
+            "name": "大鱼缸灯",
+            "type": "mijia_light",
+            "ip": "",
+            "visible": true,
+            "did": "732666959",
+            "model": "iot.plug.socn1",
+            "data": {
+                "online": true,
+                "power": "off"
+            }
+        },
+        {
+            "id": "009cc2e9-4944-4b3e-b600-e23aba3ae214",
+            "name": "餐厅温湿度计",
+            "type": "mijia_sensor",
+            "ip": "",
+            "visible": false,
+            "did": "blt.3.1ftg40bm04g02",
+            "model": "miaomiaoce.sensor_ht.t2"
+        },
+        {
+            "id": "e6ededcd-d6a6-4371-b53a-24650ab41659",
+            "name": "取暖器上下摇头",
+            "type": "mijia",
+            "ip": "",
+            "visible": false,
+            "did": "ir.1726979333765611521",
+            "model": "miir.remote.ir01"
+        },
+        {
+            "id": "b06f1cc8-0920-453c-8a13-2105469b3990",
+            "name": "中国电信",
+            "type": "mijia",
+            "ip": "",
+            "visible": false,
+            "did": "miwifi.13b97502-102e-9f2f-628e-4f074c3fd96b",
+            "model": "xiaomi.router.rb08"
+        },
+        {
+            "id": "62ba3961-eae2-49dc-a186-69d682389ed3",
+            "name": "左键-H+单火三键开关",
+            "type": "mijia_switch",
+            "ip": "",
+            "visible": true,
+            "did": "1080650797.s2",
+            "model": "huca.switch.dh3",
+            "data": {
+                "online": true,
+                "power": "off"
+            }
+        }
+    ],
+    "settings": {
+        "refresh_interval_ms": 3000,
+        "max_temp_alert": 30.0,
+        "min_temp_alert": 20.0,
+        "max_tds_alert": 300
+    },
+    "schedule": {
+        "enable": false,
+        "on_time": "09:00",
+        "off_time": "23:00"
+    },
+    "mijia": {
+        "enabled": true
+    },
+    "notification": {
+        "enabled": false,
+        "token": "aea9d9b6927a4e94bd4e6078a0e584ef",
+        "rules": {
+            "907536a1-4b7d-48ff-b8bf-655a37a2494b": {
+                "on": true
+            },
+            "165b0a13-0d23-455f-99ba-3b9a767f98d4": {
+                "on": false
+            }
+        }
+    },
+    "status_log": {
+        "enabled": true,
+        "logs": [
+            {
+                "id": "692142db-0a88-493b-8ec7-0843f7529ea0",
+                "device_id": "907536a1-4b7d-48ff-b8bf-655a37a2494b",
+                "device_name": "智能灯",
+                "action": "开启",
+                "timestamp": "2026-01-27 08:30:52",
+                "read": true
+            },
+            {
+                "id": "2d8f09d1-46ce-4425-9a22-bd42469138db",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 08:36:03",
+                "read": true
+            },
+            {
+                "id": "74fe74de-4dd7-4b40-a740-8a0e9ebc85db",
+                "device_id": "907536a1-4b7d-48ff-b8bf-655a37a2494b",
+                "device_name": "智能灯",
+                "action": "开启",
+                "timestamp": "2026-01-27 08:36:20",
+                "read": true
+            },
+            {
+                "id": "7d78ba07-180a-45b5-b3c6-a98873b1db54",
+                "device_id": "907536a1-4b7d-48ff-b8bf-655a37a2494b",
+                "device_name": "智能灯",
+                "action": "关闭",
+                "timestamp": "2026-01-27 08:36:41",
+                "read": true
+            },
+            {
+                "id": "10f16020-c597-4558-bc32-e7f84e032812",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 08:39:41",
+                "read": true
+            },
+            {
+                "id": "b2ae0724-c67e-49eb-939c-81be4189eb10",
+                "device_id": "907536a1-4b7d-48ff-b8bf-655a37a2494b",
+                "device_name": "智能灯",
+                "action": "开启",
+                "timestamp": "2026-01-27 08:40:29",
+                "read": true
+            },
+            {
+                "id": "105ade3e-2cc4-47bd-beb5-62380c10e236",
+                "device_id": "907536a1-4b7d-48ff-b8bf-655a37a2494b",
+                "device_name": "智能灯",
+                "action": "关闭",
+                "timestamp": "2026-01-27 08:40:36",
+                "read": true
+            },
+            {
+                "id": "4df3fc5d-6319-4537-b5cf-988d6b3fd16c",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 08:44:58",
+                "read": true
+            },
+            {
+                "id": "15cb08d8-6cf4-4adc-a298-45794f1aa2ec",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 08:46:56",
+                "read": true
+            },
+            {
+                "id": "e65891da-ffb9-4b32-8bc8-e0e5485dba63",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 08:49:40",
+                "read": true
+            },
+            {
+                "id": "9277f1de-0817-49a9-b57e-ff0df1e6347a",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 08:51:01",
+                "read": true
+            },
+            {
+                "id": "6db34a9f-ee66-4341-99a8-68ce45a5c20c",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 08:54:12",
+                "read": true
+            },
+            {
+                "id": "4c9445a8-da81-4027-8d49-320584424bf8",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 08:56:24",
+                "read": true
+            },
+            {
+                "id": "58fecf69-52b9-487e-ab87-d285e50f47c0",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 08:59:57",
+                "read": true
+            },
+            {
+                "id": "d093614f-1737-4fac-b70c-b8a03aeb8be0",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:03:35",
+                "read": true
+            },
+            {
+                "id": "b0407503-533b-401b-95c9-dfcf899fca13",
+                "device_id": "d411bf4d-d436-4bd7-abf4-02060ec2953f",
+                "device_name": "左键-H+单火双键开关",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:04:50",
+                "read": true
+            },
+            {
+                "id": "cf41ea07-025c-49d3-b672-ad2e871e6294",
+                "device_id": "d411bf4d-d436-4bd7-abf4-02060ec2953f",
+                "device_name": "左键-H+单火双键开关",
+                "action": "关闭",
+                "timestamp": "2026-01-27 09:05:46",
+                "read": true
+            },
+            {
+                "id": "7651428d-3610-4b74-abad-40cfc5c4b12c",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:06:46",
+                "read": true
+            },
+            {
+                "id": "617b606a-7093-4fe6-87fa-f314aaaa08a1",
+                "device_id": "d411bf4d-d436-4bd7-abf4-02060ec2953f",
+                "device_name": "左键-H+单火双键开关",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:07:51",
+                "read": true
+            },
+            {
+                "id": "55d027a0-05f0-49a0-8063-a59c558d1d2b",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:08:39",
+                "read": true
+            },
+            {
+                "id": "912951c2-1d9b-4ffd-acec-70fdd017918e",
+                "device_id": "d411bf4d-d436-4bd7-abf4-02060ec2953f",
+                "device_name": "左键-H+单火双键开关",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:08:39",
+                "read": true
+            },
+            {
+                "id": "4a985059-a59c-4007-9fba-f0d177e62cd4",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:20:00",
+                "read": true
+            },
+            {
+                "id": "1cee127a-ad16-49b5-9f62-e368edb4f577",
+                "device_id": "d411bf4d-d436-4bd7-abf4-02060ec2953f",
+                "device_name": "左键-H+单火双键开关",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:20:00",
+                "read": true
+            },
+            {
+                "id": "f7bb4edd-1b3c-449e-bf34-df77f4c77c41",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:23:08",
+                "read": true
+            },
+            {
+                "id": "d0b96150-e948-426c-b833-5be9b737cd1c",
+                "device_id": "d411bf4d-d436-4bd7-abf4-02060ec2953f",
+                "device_name": "左键-H+单火双键开关",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:23:08",
+                "read": true
+            },
+            {
+                "id": "7edc5727-5b7d-419b-a7b9-cb9235c87b9c",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:24:59",
+                "read": true
+            },
+            {
+                "id": "be61e22e-40b1-4024-9b7f-63a3ced4246c",
+                "device_id": "d411bf4d-d436-4bd7-abf4-02060ec2953f",
+                "device_name": "左键-H+单火双键开关",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:24:59",
+                "read": true
+            },
+            {
+                "id": "a9727aa6-15b6-43ad-8538-093006831cfb",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:30:59",
+                "read": true
+            },
+            {
+                "id": "334753db-5ed0-44bb-897d-d044bd668085",
+                "device_id": "d411bf4d-d436-4bd7-abf4-02060ec2953f",
+                "device_name": "左键-H+单火双键开关",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:30:59",
+                "read": true
+            },
+            {
+                "id": "d15a61bf-762c-4a69-b2fb-bffd22b3efc3",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:34:35",
+                "read": true
+            },
+            {
+                "id": "26e8f109-bb9c-4dd5-a2a6-0f31533a807f",
+                "device_id": "d411bf4d-d436-4bd7-abf4-02060ec2953f",
+                "device_name": "左键-H+单火双键开关",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:34:35",
+                "read": true
+            },
+            {
+                "id": "00738a4e-4eb4-4b39-aa9c-3ef54f7a1578",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:40:32",
+                "read": true
+            },
+            {
+                "id": "6e0c3b0c-f71e-4c99-a6b4-9021b193f241",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:43:59",
+                "read": true
+            },
+            {
+                "id": "3fae9f0d-0af5-466a-8680-89ca8443b070",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 09:46:21",
+                "read": true
+            },
+            {
+                "id": "f7841288-7613-46e7-a514-10f9334c40fa",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 10:03:19",
+                "read": true
+            },
+            {
+                "id": "0938cf13-615c-43c7-8170-b626c954b328",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 10:06:55",
+                "read": true
+            },
+            {
+                "id": "32b79ab5-ae6c-44ba-a427-b0d2b69778ba",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 10:11:33",
+                "read": true
+            },
+            {
+                "id": "13434c99-e800-4394-b09b-df472827bee1",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 10:14:52",
+                "read": true
+            },
+            {
+                "id": "6387003a-f375-408a-a5d9-01a248a7534d",
+                "device_id": "d411bf4d-d436-4bd7-abf4-02060ec2953f",
+                "device_name": "左键-H+单火双键开关",
+                "action": "开启",
+                "timestamp": "2026-01-27 10:17:25",
+                "read": true
+            },
+            {
+                "id": "d2e0ef96-c93c-4377-bb32-97172167223c",
+                "device_id": "d411bf4d-d436-4bd7-abf4-02060ec2953f",
+                "device_name": "左键-H+单火双键开关",
+                "action": "关闭",
+                "timestamp": "2026-01-27 10:17:30",
+                "read": true
+            },
+            {
+                "id": "f4745995-c56d-43e9-9bb0-36809b791558",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 10:25:50",
+                "read": true
+            },
+            {
+                "id": "0b986132-d53f-4fe5-b2fc-12e1f700a3d4",
+                "device_id": "907536a1-4b7d-48ff-b8bf-655a37a2494b",
+                "device_name": "智能灯",
+                "action": "开启",
+                "timestamp": "2026-01-27 14:00:06",
+                "read": true
+            },
+            {
+                "id": "8bb88f3a-a3e4-4951-bbe1-a6d76270a156",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 14:00:06",
+                "read": true
+            },
+            {
+                "id": "4437faf6-64e8-47a5-bfa3-2af7706b5df5",
+                "device_id": "907536a1-4b7d-48ff-b8bf-655a37a2494b",
+                "device_name": "智能灯",
+                "action": "开启",
+                "timestamp": "2026-01-27 14:04:56",
+                "read": true
+            },
+            {
+                "id": "3e3677da-564e-4d17-91b7-c70ed24130f2",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 14:04:56",
+                "read": true
+            },
+            {
+                "id": "b0fb61cf-c05c-441e-88db-31d93948f305",
+                "device_id": "907536a1-4b7d-48ff-b8bf-655a37a2494b",
+                "device_name": "智能灯",
+                "action": "开启",
+                "timestamp": "2026-01-27 14:15:53",
+                "read": true
+            },
+            {
+                "id": "537c7fa5-de50-4730-a429-3f1b6ed214cb",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 14:15:53",
+                "read": true
+            },
+            {
+                "id": "0776d151-8cc6-4547-b853-9f1abbb209af",
+                "device_id": "907536a1-4b7d-48ff-b8bf-655a37a2494b",
+                "device_name": "智能灯",
+                "action": "开启",
+                "timestamp": "2026-01-27 14:21:08",
+                "read": true
+            },
+            {
+                "id": "1cdb5ce1-ca3c-4dd8-837e-2e5180233565",
+                "device_id": "b8e1561e-91a5-45ab-99bf-ab36729d8e5a",
+                "device_name": "电脑 智能插座P1",
+                "action": "开启",
+                "timestamp": "2026-01-27 14:21:08",
+                "read": true
+            }
+        ]
+    }
+}

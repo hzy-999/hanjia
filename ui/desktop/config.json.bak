@@ -1,0 +1,17 @@
+{
+  "devices": {
+    "sensor_node_ip": "127.0.0.1:5001",
+    "light_node_ip": "192.168.31.142"
+  },
+  "settings": {
+    "refresh_interval_ms": 3000,
+    "max_temp_alert": 30.0,
+    "min_temp_alert": 20.0,
+    "max_tds_alert": 300
+  },
+  "schedule": {
+    "enable": false,
+    "on_time": "09:00",
+    "off_time": "23:00"
+  }
+}
